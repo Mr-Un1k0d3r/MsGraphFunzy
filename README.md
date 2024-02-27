@@ -1,4 +1,4 @@
-# Graph-Email-Dumper
+# MsGraphFunzy
 Script to dump emails through Microsoft Graph API. it also include another script to push a file on the Azure tenant.
 
 # Usage graph_dump.py
