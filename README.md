@@ -1,7 +1,9 @@
 # Graph-Email-Dumper
-Script to dump emails through Microsoft Graph API
+Script to dump emails through Microsoft Graph API. it also include another script to push a file on the Azure tenant.
 
 # Usage graph_dump.py
+
+This script dump emails and attachments
 
 ```
 python3 graph_dump.py extended_azure_token_file_path (optional filter)
@@ -16,7 +18,9 @@ python3 graph_dump.py extended_azure_token_file_path (optional filter)
 python3 graph_dump.py extended_azure_token_file_path '$search="body:password"'
 ```
 
-# Usage push_sharepoint.py can be used to host on file on an Azure tenant
+# Usage push_sharepoint.py 
+
+This script can be used to host on file on an Azure tenant
 
 ```
 python3 extract_email.py extended_azure_token_file_path file_to_upload_path remote_filename (optional -organization)
