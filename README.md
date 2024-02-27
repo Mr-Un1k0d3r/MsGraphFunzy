@@ -12,7 +12,7 @@ python3 graph_dump.py extended_azure_token_file_path (optional filter)
 
 ```
 '$search="body:password"'
-'$search="attachment:password"'
+'$search="subject:password"'
 '$search="attachment:password"'
 
 python3 graph_dump.py extended_azure_token_file_path '$search="body:password"'
