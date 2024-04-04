@@ -11,11 +11,11 @@ python3 graph_dump.py extended_azure_token_file_path (optional filter)
 # Filter examples
 
 ```
-'$search="body:password"'
-'$search="subject:password"'
-'$search="attachment:password"'
+body:password
+subject:password
+attachment:password
 
-python3 graph_dump.py extended_azure_token_file_path '$search="body:password"'
+python3 graph_dump.py extended_azure_token_file_path body:password
 ```
 
 # Usage push_sharepoint.py 
