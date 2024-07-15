@@ -80,7 +80,7 @@ print("Page %d completed" % iterator)
 while "@odata.nextLink" in data:
       print("Page %d completed" % iterator)
       data = send_request(data["@odata.nextLink"], jwt)
-      process_data(data, path)
+      process_data(data, jwt, path)
       iterator += 1
 
 print("Process completed")
