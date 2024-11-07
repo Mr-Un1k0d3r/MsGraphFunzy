@@ -30,7 +30,7 @@ python3 extract_email.py extended_azure_token_file_path file_to_upload_path remo
 
 ```
 PS> install-module aadinternals
-PS> import-module addinternals
+PS> import-module aadinternals
 PS> $t = Get-AADIntAccessTokenWithRefreshToken -clientid "d3590ed6-52b3-4102-aeff-aad2292ab01c" -resource "https://graph.microsoft.com" -tenantid "" -refreshtoken "" -savetocache 1 -includerefreshtoken 1
 PS> Write-Output $t
 ```
